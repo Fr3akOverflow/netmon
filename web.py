@@ -140,6 +140,7 @@ __DEVICES__
 __SESSIONS__
 </table>
 <p style="color:#888;font-size:.8em">Auto-Refresh alle 20 s.</p>
+<p style="color:#888;font-size:.8em">© 2026 Fr3akOverflow · MIT License</p>
 </body></html>"""
 
 
