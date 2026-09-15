@@ -1,0 +1,12 @@
+[Unit]
+Description=LAN Präsenzmonitor (ARP)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStart=/opt/netmon/netmon.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

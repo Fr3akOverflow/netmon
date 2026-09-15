@@ -1,0 +1,13 @@
+[Unit]
+Description=netmon Webinterface
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+WorkingDirectory=/opt/netmon
+ExecStart=/usr/bin/python3 /opt/netmon/web.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
